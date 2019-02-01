@@ -19,5 +19,5 @@ function setDisplay(elem, state) {
 
 function activateRegister() {  
     setDisplay(document.getElementById('main-text'), 'none');
-    setDisplay(document.getElementById('registration'), 'grid');
+    setDisplay(document.getElementById('registration'), 'inline-grid');
 }
